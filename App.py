@@ -87,6 +87,7 @@ class AppWindow(tk.Tk):
         # Obtener el ancho y alto de la pantalla
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
+####
 
         # Calcular la posición del lado superior izquierdo de la ventana para centrarla
         position_top = int(screen_height / 2 - window_height / 2)
