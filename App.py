@@ -80,7 +80,7 @@ class AppWindow(tk.Tk):
         self.romaneos.pack(fill="both", expand=True) 
              
     def center_window(self):
-        # Obtener el ancho y alto de la ventana
+        # Obtener el ancho y alto de la ventanas
         window_width = 1200
         window_height = 500
 
